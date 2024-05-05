@@ -1,0 +1,40 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 242);
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+div:nth-of-type(2n){
+    background-color: blueviolet;
+}
+div:nth-of-type(3n) {
+    background-color: indianred;
+}
+#x {
+    margin-top: 10px;
+    box-shadow: 4px 4px 10px black;
+}
+div:hover {
+   margin-top: 400px;
+   background-color: pink;
+}
+/* ~ Transform */
+#one {
+    transform: rotate(45deg);
+}
+#two {
+    transform: scale(0.5);
+}
+#three {
+    transform: translate(100px);
+}
+#four {
+    transform: skew(30deg);
+}
+#five {
+    transform: rotate(45deg);
+    transform: translate(100px);
+    transform: skew(-30deg);
+}

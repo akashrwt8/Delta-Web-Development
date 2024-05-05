@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+    <head><title>Checkbox and Radio</title></head>
+    <body>
+        <div>
+            <form action="/server">
+                <div>
+                    <input type="checkbox" id="age" name="age">
+                    <label for="age">I am 18+</label>
+                </div>
+                <div>
+                    <input type="radio" name="fruit" id="apple" value="apple">
+                    <label for="apple"><i>Apple</i></label>
+                    <input type="radio" name ="fruit" id="mango" value="mango">
+                    <label for="mango"><i>Mango</i></label>
+                    <input type="radio" name="fruit" id="orange" value="orange">
+                    <label for="orange"><i>orange</i></label>
+                </div>
+               
+                <div>
+                    <label for="profession"><b><i>Chose your profession</i></b></label>
+                    <select name="profession" id="profession">
+                        <option>select your option</option>
+                        <option value="stu"><i>Student</i></option>
+                        <option value="Dev"><b><i>Developer</i></b></option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="volume">Select volume :</label>
+                    <input type="range" min="0" max="100" id="volume" name="val" step="10" value="50">
+                </div>
+
+                <div>
+                    <label for="feedback"><i>Please give your valueable feedback :</i></label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="1" placeholder="write your feedback here"></textarea>
+                </div>
+
+                <button><i>Sumbit</i></button>
+
+            </form>
+        </div>
+    </body>
+    </html>

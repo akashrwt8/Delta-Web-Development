@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="/server">
+            <div>
+             <h3><i>Registration Form</i></h3>
+                <input type="text" placeholder="First Name" name="fname">
+                <input type="text" placeholder="Last Name" name="lname">
+            </div>
+
+            <div>
+                <label for="gender"><b><i>Please select gender </i></b></label>
+                <select name="gender" id="gender">
+                    <option value="m"><i>Male</i></option>
+                    <option value="l=f"><i>Female</i></option>
+                </select>
+            </div>
+
+            <div>
+                <label for="agree">Do you agree to all terms of service ?</label>
+                <input type="checkbox" id="agree" name="terms of service">
+                <label for="agree">Yes, I agree</label>
+                
+            </div>
+
+            <button><b><i>Register</i></b></button>
+        </form>
+    </body>
+    </html>

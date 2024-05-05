@@ -1,0 +1,30 @@
+#mainTopic {
+    color: blue;
+}
+* {
+    text-align: center;
+}
+h1 {
+    font-style: Georgia;
+}
+.pra {
+    background-color: cornflowerblue;
+    color: white;
+}
+div > button {
+    background-color: purple;
+    color: azure;
+}
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(odd) {
+    color: yellow;
+}
+#mainTopic::first-letter {
+    color: red;
+}
+#yes:checked + label {
+    color: darkgreen;
+}

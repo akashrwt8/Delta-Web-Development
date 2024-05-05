@@ -1,0 +1,50 @@
+.container {
+    height: 300px;
+    width: 80%;
+    background-color: beige;
+    margin: 10px auto;
+    border: 2px solid saddlebrown;
+    display: flex; /*by default row */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#r1 {
+    background-color: violet;
+}
+
+#r2 {
+    background-color: indigo;
+}
+
+#r3 {
+    background-color: blue;
+}
+
+#r4 {
+    background-color: green;
+}
+
+#r5 {
+    background-color: yellow;
+}
+
+#r6 {
+    background-color: orange;
+}
+
+#r7 {
+    background-color: red;
+}

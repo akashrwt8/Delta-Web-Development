@@ -1,0 +1,19 @@
+div {
+    color: antiquewhite;
+    background-color: aqua;
+    height: 200px;
+    width: 400px;
+    margin-top: 10px auto;
+    background-image: url(background.jpg);
+    background-size: contain;
+}
+#co {
+    margin-top: 10px;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+#a {
+    margin-top: 10px;
+    background-image: url(background.jpg);
+    background-size: auto;
+}

@@ -1,0 +1,16 @@
+*{
+    font-family: 'Courier New';
+}
+#fb {
+    color: #1b74e4;
+}
+div > input + button {
+    background-color: black;
+    color: aliceblue;
+}
+#login {
+    background-color: aqua;
+}
+#Register {
+    background-color: aqua;
+}
